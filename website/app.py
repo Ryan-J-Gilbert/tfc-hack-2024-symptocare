@@ -44,7 +44,7 @@ def process_symptoms(symptoms):
 def gpt_symptoms(symptoms):
     '''returns a list of potential diseases from the GPT model'''
 
-    return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec odio nec nunc tincidunt tincidunt\n1. fizz \n2. buzz \n3. bear"
+    # return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec odio nec nunc tincidunt tincidunt\n1. fizz \n2. buzz \n3. bear"
 
     file = open("data/disease_symptom.csv", "r")
     all_text = file.read()
