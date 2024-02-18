@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SymptoCare</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}" />
+</head>
+
+<body>
+    <nav>
+        <!-- <img src="{{ url_for('static', filename='SymptoCare-logos_transparent.png') }}" /> -->
+        <a href="/">
+            <img style="margin-top: 13px;" width="250" src="static/SymptoCare-logos_transparent.png">
+        </a>
+        <a href="/">Home</a>
+        <a href="/symptom">Symptom Checker</a>
+    </nav>
+    <div class="container">
+        <h1 style="margin-bottom: 0.2rem">About SymptoCare</h1>
+        <p style="margin-bottom: 2.5rem;">This tool is designed to provide users with an
+            easy way to check their symptoms against a database. By using cosine similarity, we are able to find the
+            closest matching diseases. To further enhance the prediciton and provide more information, we utilize a GPT
+            model.
+            about the diseases.</p>
+        <h2 style="margin-bottom: 0.2rem">How This Benefits The Community</h2>
+        <ul style="margin-bottom: 2.5rem;">
+            <li>Digital Health Access: Access to healthcare services is a fundamental right. SymptoCare provides health
+                information as a platform ANYBODY can use FREE of charge.</li>
+            <li>Community Health Empowerment: SymptoCare promotes knowledge and action taking. Visiting the doctor is
+                expensive and time consuming. <strong>SymptoCare takes the pain out of the diagnosis.</strong>
+            </li>
+        </ul>
+
+        <h2 style="margin-bottom: 0.2rem">How We Collected the Data</h2>
+        <p style="margin-bottom: 2.5rem;">
+            The data for the Symptom Checker was collected from discharge summaries of patients at the
+            New York Presbyterian Hospital in 2004. The data was then processed and cleaned so that
+            each disease is associated with a group of symptoms. The link to the database can be found <a
+                target="_blank"
+                href="https://impact.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html">here</a>.
+        </p>
+        <h2 style=" margin-bottom: 0.2rem">Uses for the Symptom Checker</h2>
+        <p>This tool is intended for informational purposes only and is not a substitute for professional medical
+            advice, diagnosis, or treatment. It can be used to:</p>
+        <ul style="margin-bottom: 0.5rem;">
+            <li>Identify potential medical conditions based on symptoms.</li>
+            <li>Understand more about a symptom or condition.</li>
+            <li>Prepare questions for your healthcare provider.</li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
