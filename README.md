@@ -1,6 +1,6 @@
 # SymptoCare
 
-SymptoCare is a platform designed to provide healthcare accessibility and delivery through a disease search tool. This project was created at the Tech For Change 2024 Hackathon.
+SymptoCare is a platform designed to provide healthcare accessibility and delivery through a disease search tool. This project was created at the Tech For Change 2024 Hackathon. A summary of the site can be found in [these slides](https://docs.google.com/presentation/d/1wlIreA1Mw72P092Q_Mr9W93OhoIdwLX9JA-b48urZtg/edit?usp=sharing).
 
 ## Features
 
